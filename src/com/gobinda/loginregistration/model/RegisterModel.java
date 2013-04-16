@@ -1,5 +1,9 @@
 package com.gobinda.loginregistration.model;
 
+/*
+ * This Class Represents the Model of Registration
+ */
+
 public class RegisterModel {
 	private String name,email,userName,password,contact_no;
 
