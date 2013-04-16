@@ -1,5 +1,9 @@
 package com.gobinda.loginregistration.model;
 
+/*
+ * This Class represents the Model of Result
+ */
+
 
 
 public class ResultModel {
