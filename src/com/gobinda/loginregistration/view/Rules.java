@@ -1,8 +1,9 @@
 package com.gobinda.loginregistration.view;
+/*
+ * This activity normally Display the Rules of Exam
+ */
 
 import com.gobinda.loginregistration.R;
-import com.gobinda.loginregistration.R.id;
-import com.gobinda.loginregistration.R.layout;
 import com.gobinda.loginregistration.control.RegisterDataSource;
 import com.gobinda.loginregistration.model.RegisterModel;
 
