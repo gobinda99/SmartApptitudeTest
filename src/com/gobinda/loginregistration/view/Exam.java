@@ -1,11 +1,12 @@
 package com.gobinda.loginregistration.view;
 
+/*
+ * This Activity Class perform the logic  during the exam
+ * 
+ */
 
 
 import com.gobinda.loginregistration.R;
-import com.gobinda.loginregistration.R.id;
-import com.gobinda.loginregistration.R.layout;
-import com.gobinda.loginregistration.R.style;
 import com.gobinda.loginregistration.control.ExamDataSource;
 import com.gobinda.loginregistration.control.ResultDataSource;
 import com.gobinda.loginregistration.model.ExamModel;
