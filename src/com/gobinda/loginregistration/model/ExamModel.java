@@ -1,5 +1,9 @@
 package com.gobinda.loginregistration.model;
 
+/*
+ * This Class Represents Model of Examination
+ */
+
 public class ExamModel {
 	private int questionNo;
 	private String question,optionA,optionB,optionC,optionD,answer;
