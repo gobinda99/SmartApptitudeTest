@@ -1,5 +1,10 @@
 package com.gobinda.loginregistration.control;
 
+/*
+ * This Class Creates Database , table , column,etc 
+ * Of The Model Registration , Exam , Result
+ */
+
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
