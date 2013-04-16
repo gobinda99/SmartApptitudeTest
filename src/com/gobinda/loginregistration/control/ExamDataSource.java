@@ -1,5 +1,10 @@
 package com.gobinda.loginregistration.control;
 
+/*
+ * This Class Contain all the Operation of the Exam 
+ * specially fetching Question From the database
+ */
+
 
 import com.gobinda.loginregistration.model.ExamModel;
 
