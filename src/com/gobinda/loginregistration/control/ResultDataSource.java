@@ -1,6 +1,11 @@
 package com.gobinda.loginregistration.control;
 
 
+/* 
+ * This Class performs all the Operation of ResultModel
+ */
+
+
 
 
 import com.gobinda.loginregistration.model.ResultModel;
