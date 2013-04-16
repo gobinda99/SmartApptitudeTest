@@ -1,8 +1,10 @@
 package com.gobinda.loginregistration.view;
 
+/* 
+ * This Activity Class takes the Registration of the User
+ */
+
 import com.gobinda.loginregistration.R;
-import com.gobinda.loginregistration.R.id;
-import com.gobinda.loginregistration.R.layout;
 import com.gobinda.loginregistration.control.RegisterDataSource;
 
 import android.app.Activity;
