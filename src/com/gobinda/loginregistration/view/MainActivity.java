@@ -1,10 +1,12 @@
 package com.gobinda.loginregistration.view;
 
+/*
+ * This Activity Class performs login and invoking registration page
+ */
+
 
 
 import com.gobinda.loginregistration.R;
-import com.gobinda.loginregistration.R.id;
-import com.gobinda.loginregistration.R.layout;
 import com.gobinda.loginregistration.control.RegisterDataSource;
 import com.gobinda.loginregistration.control.ResultDataSource;
 import com.gobinda.loginregistration.model.RegisterModel;
