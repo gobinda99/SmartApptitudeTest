@@ -1,0 +1,13 @@
+.classpath
+.project
+bin/*
+libs/*
+gen/*
+doc/*
+.settings
+.metadata
+assets/login_registration.db
+project.properties
+proguard-project.txt
+ic_launcher-web.png
+

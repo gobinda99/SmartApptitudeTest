@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/black_background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" >
+
+        <TextView
+            android:id="@+id/textView1Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/normalText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginLeft="5px" >
+
+        <TextView
+            android:id="@+id/textView2Qno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Q No"
+            android:textColor="#FFF301"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="28px">
+
+        <TextView
+            android:id="@+id/textView3Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Which alphabet comes before E"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    
+  
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="55px"
+         android:layout_marginRight="22dp">
+
+         <RadioGroup
+             android:id="@+id/radioGroup1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             
+             >
+             
+
+             <RadioButton
+                 android:id="@+id/radioButton1optionA"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 android:text="A"
+                 android:textColor="#FFFFFF"
+                  />
+
+             <RadioButton
+                 android:id="@+id/radioButton2optionB"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 
+                 
+                 android:text="B" 
+                 android:textColor="#FFFFFF" />
+
+             <RadioButton
+                 android:id="@+id/radioButton3optionC"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/radioButton1optionA"
+              
+                 android:text="C"
+                 android:textColor="#FFFFFF"  />
+
+             <RadioButton
+                 android:id="@+id/radioButton4optionD"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/radioButton3optionC"
+                 android:layout_alignBottom="@+id/radioButton3optionC"
+                 android:layout_alignParentRight="true"
+                 android:text="D"
+                 android:textColor="#FFFFFF"  />
+         </RadioGroup>
+ 
+    </RelativeLayout>
+   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button1examNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+           
+            android:text="Next"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

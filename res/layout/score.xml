@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/black_background">
+
+    <TableRow
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18px" >
+
+        <TextView
+            android:id="@+id/textView1scoreCong"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:text="Congrulation!"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#7BEE16"
+            android:layout_marginLeft="10px"/>
+
+    </TableRow>
+
+    <TableRow
+        
+        android:layout_width="match_parent"
+        android:layout_height="75px"
+        android:layout_marginLeft="100px" >
+
+        <TextView
+            android:id="@+id/textView2scoreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gobinda"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#8181F7"
+            android:layout_gravity="center"/>
+
+    </TableRow>
+
+   
+    
+    <TableRow
+       
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="100px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U Have Scored"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF00FF" />
+
+    </TableRow>
+    <TableRow
+       
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:layout_marginLeft="22px" >
+             <TextView
+                 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Scored          :        "
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="#FFFFFF" />
+             
+        <TextView
+            android:id="@+id/textView3scoreSetScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90%"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#3104B4"/>
+
+    </TableRow>
+
+    <TableRow
+        
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:layout_marginLeft="22px" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attempt        :       "
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/textView4scoreSetAttempt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 Q"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#3104B4"/>
+
+    </TableRow>
+
+    <TableRow
+        
+        android:layout_width="match_parent"
+        android:layout_height="45px" 
+        android:layout_marginLeft="22px">
+        
+        <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Taken  :        "
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/textView5scoreSetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="47:03 m"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3104B4" />
+    </TableRow>
+    
+    <TableRow
+        
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:layout_marginLeft="22px" >
+        
+        <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result           :        "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView6scoreSetResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASS"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#EE2816"/>
+    </TableRow>
+
+</LinearLayout>
