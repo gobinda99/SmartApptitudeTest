@@ -1,5 +1,10 @@
 package com.gobinda.loginregistration.control;
 
+/*
+ * This Class performs all the operation of the Registration Model 
+ * For registration and login
+ */
+
 
 
 
