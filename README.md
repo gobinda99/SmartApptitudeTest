@@ -22,7 +22,7 @@ This repository contains the source code for the Smart Apptitude Test Android ap
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/github/android/pulls).
+[pull requests](https://github.com/gobinda99/SmartApptitudeTest/pulls).
 
 Any contributions, large or small, major features, bug fixes, additional
 language translations, unit/integration tests are welcomed and appreciated
