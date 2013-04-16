@@ -5,7 +5,7 @@ This repository contains the source code for the Smart Apptitude Test Android ap
 
 ## Building
 
-   Once you download the source code configure as per AndroidMenifest.xml then compile the code . After compilation 
+   Once you download the source code configure as per [AndroidMenifest.xml](https://github.com/gobinda99/SmartApptitudeTest/blob/master/AndroidManifest.xml) then compile the code . After compilation 
 
    * open `DDMS`
    * Select `File Explorer`
